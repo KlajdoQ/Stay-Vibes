@@ -81,7 +81,7 @@ const data = [
 
 export default function Home() {
   return (
-    <div>
+    <div className='content'>
 
       <SimpleGrid minChildWidth="300px" spacing="10" minH="full">
         {data.map((house, i) => (

@@ -49,5 +49,13 @@
   font-size: 50px;
   align-content: center;
   padding: 10px
-
+}
+.content {
+  position:relative;
+}
+.logo {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
 }

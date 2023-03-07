@@ -3,7 +3,7 @@ import { stack as Menu } from 'react-burger-menu'
 import { NavLink } from 'react-router-dom';
 import "../index.css"
 import Search from './Search';
-
+import Logo from './images/Logo.png'
 
 export default function NavBar() {
   const [menuState, setMenuState] = useState(false)
@@ -24,6 +24,7 @@ return (
         <NavLink to="/">Log Out</NavLink>
     </Menu>
     <h1 className='stay-vibes' onClick={handleOpen}>Stay Vibes</h1>
+    <img src={Logo} alt="logo" className='logo'/>
    
   </div>
 )
